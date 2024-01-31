@@ -41,6 +41,6 @@ The command line will prompt you for the file names.
 The code `hausdorff_dist` is available for you to use, to calculate the hausdorff distance between two meshes or pointclouds. 
 
 ## Licence
-The code is available for all to use with contributions provided under `MIT` licence. 
+The code is available under `MIT` licence. Please list authors if this code has been of help to you!
 
 
