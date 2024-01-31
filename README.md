@@ -8,7 +8,7 @@ Accepted to SPIE Medical Imaging 2024
 The code is separated into two sections: Geometric method and ML method
 The ML method can be found [here](https://github.com/ImaneChafi/SP-Prep-GAN). This code builds onto code from the [SP-GAN]([https://liruihui.github.io/publication/SP-GAN/) paper by Li et al. 
 
-Outputs from the ML method is provided under `results` As this is generated using an Ml model, we can add the outputs here. However, due to privacy laws concerning dentistry shape material, we cannot share the original data here. Please email imane.chafi@polymtl.ca for data. 
+Due to privacy laws concerning dentistry shape material, we cannot share the original data here. Please email imane.chafi@polymtl.ca for data. 
 
 ## Installation
 
