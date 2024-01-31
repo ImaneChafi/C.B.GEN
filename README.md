@@ -39,6 +39,11 @@ The command line will prompt you for the file names.
 ## Evaluation
 
 The code `hausdorff_dist` is available for you to use, to calculate the hausdorff distance between two meshes or pointclouds. 
+And example output for the hausdorff distance code evaluation is:
+```
+min : 0.000000 max 0.030672 mean : 0.003904 RMS : 0.005689
+```
+More information about this function [here](https://pymeshlab.readthedocs.io/en/latest/filter_list.html) 
 
 ## Licence
 The code is available under `MIT` licence. Please list authors if this code has been of help to you!
