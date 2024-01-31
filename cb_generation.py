@@ -41,7 +41,7 @@ class CrownBottom:
     xmin, xmax, ymin, ymax, zmin, zmax = die_mesh.bounds
 
     # Extrude along z axis bounding box with form as mesh and plot
-    body = polygon.extrude((3, 2, 10), capping=True, inplace=True) #check numbers
+    body = polygon.extrude((3, 2, 10), capping=True, inplace=True) #change numbers with direction for margin line extrusion for the crown bottom cases
     body.plot(color='white', specular=1, screenshot='extruded.png')
     body.save(f"extruded_line_margin_{self.marginline_name}.stl")
 
@@ -59,7 +59,7 @@ class CrownBottom:
     outside_cb = select_cb.threshold(0.5, invert=True) 
 
     cb_inside = inside_cb.extract_geometry()
-    cb_outside = outside_cb.extract_geometry()
+    cb_outside = outside_cb.extract_geometry() # No need for the outside mesh
 
     cb_inside.save(f"separated_cb_{self.die_name}.stl")
 
@@ -100,6 +100,8 @@ class CrownBottom:
     mgl.plot(color='white', specular=1, screenshot='extruded.png')
     
     merged_cb = complete_smoothing.merge(mgl) #change line for mgl instead of complete smoothing
+    
+    #This is the ouput crown bottom 
     merged_cb.save("cb_merged.stl")
 
 def main():
