@@ -28,10 +28,10 @@ The code for the geometric method needs a couple pythonic function as dependenci
 > Numpy
 
 ## Running the code
-Once these dependencies are installed, you can simply run the `crown_bottom_v4.py` file. All files will be saved under your `path` chosen. `python3.9` was used for this code. 
+Once these dependencies are installed, you can simply run the `cb_generation.py` file. All files will be saved under your `path` chosen. `python3.9` was used for this code. 
 
 ```
-python crown_bottom_v4.py
+python cb_generation.py
 ```
 
 The command line will prompt you for the file names.
