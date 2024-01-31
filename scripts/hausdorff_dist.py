@@ -25,7 +25,7 @@ def hausdff(cb_gen, cb_gt):
     with open("/data/HD.txt", 'a') as f:
         f.write('HD for ' + f"cb_merged{cb_gen}.stl and GT is" + " " + str(res_dict) + "\n")
     #Uncomment if you want to save mesh
-    #ms.save_current_mesh("/Users/sanaechafi/Documents/CBG/data/" + f'cb_merged{cb_gen}.stl')
+    #ms.save_current_mesh("/data/" + f'cb_merged{cb_gen}.stl')
 
     #Each hausdorff distance mean is appended to the array. It can then be used to compute the average mean distance. 
     hd_arr.append(str(res_dict.get("mean")))
