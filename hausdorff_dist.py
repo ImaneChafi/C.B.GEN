@@ -1,4 +1,3 @@
-
 import numpy as np
 import pymeshlab as ml
 
@@ -23,9 +22,10 @@ def hausdff(cb_gen, cb_gt):
     print(res_dict)
 
     #Adding all hausdorff distance in txt file for analysis. 
-    with open("/die24/HD.txt", 'a') as f:
-        f.write('HD for ' + f"cb_merged{self.die_name}.stl and GT is" + " " + str(res_dict) + "\n")
-    ms.save_current_mesh(self.path + f'cb_merged{self.die_name}.stl')
+    with open("/data/HD.txt", 'a') as f:
+        f.write('HD for ' + f"cb_merged{cb_gen}.stl and GT is" + " " + str(res_dict) + "\n")
+    #Uncomment if you want to save mesh
+    #ms.save_current_mesh("/Users/sanaechafi/Documents/CBG/data/" + f'cb_merged{cb_gen}.stl')
 
     #Each hausdorff distance mean is appended to the array. It can then be used to compute the average mean distance. 
     hd_arr.append(str(res_dict.get("mean")))
@@ -34,8 +34,8 @@ def hausdff(cb_gen, cb_gt):
 def main():
     ##Smoothing - Change folder and filename by user input
     path = "/data/"
-    cb_gen =  "cb_merged.stl"
-    cb_gt = "crownb.stl"
+    cb_gen =  "cb_gen.stl"
+    cb_gt = "cb_gt.stl"
     hausdff(path + cb_gen, path + cb_gt)
 
 ##Main function
