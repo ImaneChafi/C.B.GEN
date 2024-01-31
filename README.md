@@ -2,8 +2,6 @@
 > A pythonic VTK and 3D mesh libraries as an automatic script for crown bottom generation using a preparation shape and its corresponding margin line as inputs.
 By Imane Chafi, Farida Cheriet, Julia Keren, Ying Zhang, and François Guibault
 
-![CBG generation](https://github.com/ImaneChafi/C.B.GEN/blob/main/geometric_generation_overlap.png)
-
 Accepted to SPIE Medical Imaging 2024
 
 ## Software Implementation 
