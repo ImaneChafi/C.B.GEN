@@ -22,10 +22,10 @@ git clone https://github.com/ImaneChafi/C.B.GEN.git
 
 The code for the geometric method needs a couple pythonic function as dependencies. The main ones used are:
 
-> [Pyvista](https://pypi.org/project/pyvista/)
-> [Trimesh](https://pypi.org/project/trimesh/)
-> [Pymeshlab](https://pypi.org/project/pymeshlab/)
-> Numpy
+- [Pyvista](https://pypi.org/project/pyvista/)
+- [Trimesh](https://pypi.org/project/trimesh/)
+- [Pymeshlab](https://pypi.org/project/pymeshlab/)
+- Numpy
 
 ## Running the code
 Once these dependencies are installed, you can simply run the `cb_generation.py` file. All files will be saved under your `path` chosen. `python3.9` was used for this code. 
