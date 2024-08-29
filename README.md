@@ -4,6 +4,25 @@ By Imane Chafi, Farida Cheriet, Julia Keren, Ying Zhang, and François Guibault
 
 Accepted to SPIE Medical Imaging 2024
 
+If this research or our data has been of help, please cite our paper as such:
+
+```
+@inproceedings{10.1117/12.3006955,
+author = {Imane Chafi and Farida Cheriet and Julia Keren and Ying Zhang and Fran{\c{c}}ois Guibault},
+title = {{3D generation of dental crown bottoms using context learning}},
+volume = {12931},
+booktitle = {Medical Imaging 2024: Imaging Informatics for Healthcare, Research, and Applications},
+editor = {Hiroyuki Yoshida and Shandong Wu},
+organization = {International Society for Optics and Photonics},
+publisher = {SPIE},
+pages = {129310I},
+keywords = {Dentistry, Generative Adversarial Network, Shape generation, Dental Crown Bottom Generation, Geometric deformation     , 3D models, Machine learning, Computer-aided design},
+year = {2024},
+doi = {10.1117/12.3006955},
+URL = {https://doi.org/10.1117/12.3006955}
+}
+``` 
+
 ## Software Implementation 
 The code is separated into two sections: Geometric method and ML method
 The ML method can be found [here](https://github.com/ImaneChafi/SP-Prep-GAN). This code builds onto code from the [SP-GAN]([https://liruihui.github.io/publication/SP-GAN/) paper by Li et al. 
